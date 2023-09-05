@@ -1962,6 +1962,35 @@ dependencies = [
 ]
 
 [[package]]
+name = "fractal-tribute"
+version = "0.0.2"
+dependencies = [
+ "either",
+ "futures",
+ "holochain",
+ "holochain_client",
+ "holochain_types",
+ "holochain_zome_types",
+ "log",
+ "log4rs",
+ "mr_bundle",
+ "nanoid 0.4.0",
+ "opener",
+ "portpicker",
+ "semver 1.0.17",
+ "serde",
+ "serde_json",
+ "sodoken",
+ "symlink",
+ "tauri",
+ "tauri-build",
+ "tauri-plugin-single-instance",
+ "thiserror",
+ "url 2.4.0",
+ "url2",
+]
+
+[[package]]
 name = "fragile"
 version = "1.2.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2564,35 +2593,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "312f66718a2d7789ffef4f4b7b213138ed9f1eb3aa1d0d82fc99f88fb3ffd26f"
 dependencies = [
  "hashbrown 0.14.0",
-]
-
-[[package]]
-name = "hc-stress-test"
-version = "0.0.1"
-dependencies = [
- "either",
- "futures",
- "holochain",
- "holochain_client",
- "holochain_types",
- "holochain_zome_types",
- "log",
- "log4rs",
- "mr_bundle",
- "nanoid 0.4.0",
- "opener",
- "portpicker",
- "semver 1.0.17",
- "serde",
- "serde_json",
- "sodoken",
- "symlink",
- "tauri",
- "tauri-build",
- "tauri-plugin-single-instance",
- "thiserror",
- "url 2.4.0",
- "url2",
 ]
 
 [[package]]

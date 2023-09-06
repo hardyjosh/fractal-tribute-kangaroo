@@ -27,6 +27,7 @@ jobs:
         with:
           override: true
           toolchain: stable
+          target: aarch64-apple-darwin
       - name: install Go stable
         uses: actions/setup-go@v4
         with:

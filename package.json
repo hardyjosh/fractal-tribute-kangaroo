@@ -1,10 +1,10 @@
 {
   "name": "fractal-tribute",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "kangaroo": "npm run dist && npm run tauri build",
+    "kangaroo": "npm run dist && npm run tauri build -- --target universal-apple-darwin",
     "dist": "rimraf ./dist && extract-zip ./pouch/ui.zip ./dist && cpy ./src-tauri/assets/ ./dist/kangaroo_assets --flat",
     "tauri": "tauri"
   },

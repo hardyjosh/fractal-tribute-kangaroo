@@ -7,7 +7,7 @@
   },
   "package": {
     "productName": "fractal-tribute",
-    "version": "0.0.16"
+    "version": "0.0.17"
   },
   "tauri": {
     "allowlist": {
@@ -36,7 +36,7 @@
     "bundle": {
       "active": true,
       "targets": "all",
-      "identifier": "fractal-tribute.with-unique-identifier.in-reverse-domain-notation",
+      "identifier": "fractal-tribute.holochain.org",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",

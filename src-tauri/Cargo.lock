@@ -1963,7 +1963,7 @@ dependencies = [
 
 [[package]]
 name = "fractal-tribute"
-version = "0.0.10"
+version = "0.0.16"
 dependencies = [
  "either",
  "futures",

@@ -1,7 +1,7 @@
 {
   "name": "fractal-tribute",
   "private": true,
-  "version": "0.0.15",
+  "version": "0.0.16",
   "type": "module",
   "scripts": {
     "kangaroo": "npm run dist && npm run tauri build -- --target universal-apple-darwin",

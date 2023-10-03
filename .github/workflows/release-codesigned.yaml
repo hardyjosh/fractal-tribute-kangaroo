@@ -87,9 +87,9 @@ jobs:
           # !! NOTE: The version field needs to be updated manually here with each new version of your app, otherwise the Windows build will fail.
 
           # sign the .msi file
-          AzureSignTool sign -kvu "${{ secrets.AZURE_KEY_VAULT_URI }}" -kvi "${{ secrets.AZURE_CLIENT_ID }}" -kvt "${{ secrets.AZURE_TENANT_ID }}" -kvs "${{ secrets.AZURE_CLIENT_SECRET }}" -kvc ${{ secrets.AZURE_CERT_NAME }} -tr http://timestamp.digicert.com -v "D:\a\fractal-tribute-kangaroo\fractal-tribute-kangaroo\src-tauri\target\release\bundle\msi\fractal-tribute_0.0.16_x64_en-US.msi"
+          AzureSignTool sign -kvu "${{ secrets.AZURE_KEY_VAULT_URI }}" -kvi "${{ secrets.AZURE_CLIENT_ID }}" -kvt "${{ secrets.AZURE_TENANT_ID }}" -kvs "${{ secrets.AZURE_CLIENT_SECRET }}" -kvc ${{ secrets.AZURE_CERT_NAME }} -tr http://timestamp.digicert.com -v "D:\a\fractal-tribute-kangaroo\fractal-tribute-kangaroo\src-tauri\target\release\bundle\msi\fractal-tribute_0.0.19_x64_en-US.msi"
           # sign the .exe file
-          AzureSignTool sign -kvu "${{ secrets.AZURE_KEY_VAULT_URI }}" -kvi "${{ secrets.AZURE_CLIENT_ID }}" -kvt "${{ secrets.AZURE_TENANT_ID }}" -kvs "${{ secrets.AZURE_CLIENT_SECRET }}" -kvc ${{ secrets.AZURE_CERT_NAME }} -tr http://timestamp.digicert.com -v "D:\a\fractal-tribute-kangaroo\fractal-tribute-kangaroo\src-tauri\target\release\bundle\nsis\fractal-tribute_0.0.16_x64-setup.exe"
+          AzureSignTool sign -kvu "${{ secrets.AZURE_KEY_VAULT_URI }}" -kvi "${{ secrets.AZURE_CLIENT_ID }}" -kvt "${{ secrets.AZURE_TENANT_ID }}" -kvs "${{ secrets.AZURE_CLIENT_SECRET }}" -kvc ${{ secrets.AZURE_CERT_NAME }} -tr http://timestamp.digicert.com -v "D:\a\fractal-tribute-kangaroo\fractal-tribute-kangaroo\src-tauri\target\release\bundle\nsis\fractal-tribute_0.0.19_x64-setup.exe"
 
           # # Uncomment the lines below if you have the updater enabled
           # # =========================================================

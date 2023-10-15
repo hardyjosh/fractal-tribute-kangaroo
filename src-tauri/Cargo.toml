@@ -1,6 +1,6 @@
 [package]
 name = "fractal-tribute" # fractal-tribute
-version = "0.1.0" # fractal-tribute -- Choose wisely, see "Note on Versioning" in README
+version = "0.0.21" # fractal-tribute -- Choose wisely, see "Note on Versioning" in README
 description = "A Tauri App"
 authors = ["you"]
 license = ""
